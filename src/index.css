@@ -520,9 +520,13 @@ Stripe Styles
 .mission_join_body {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  row-gap: 2rem;
   max-width: var(--max-width);
-  margin: 0rem 4rem;
+  padding: 0rem 2rem;
+}
+
+.mission_join_text {
+  padding: 0rem 2rem;
 }
 
 .mission_join .btn {
@@ -555,7 +559,8 @@ Stripe Styles
 }
 
 .mission_photo {
-  max-width: 28rem;
+  max-width: 26rem;
+  display: inline-block;
   border-radius: var(--radius);
   box-shadow: var(--dark-shadow);
 }
@@ -568,10 +573,14 @@ Stripe Styles
 
 @media screen and (min-width: 800px) {
   .mission_join_body {
-    margin: 0rem 1rem;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
   }
   .mission_join {
     padding: 4rem 0rem;
+  }
+  .mission_photo {
+    max-width: 28rem;
   }
 }
 
