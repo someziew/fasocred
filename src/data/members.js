@@ -1,4 +1,4 @@
-export const members_introduction = "Pour adhérer à FASOCRED, il faut se prémunir d'une Carte Nationale d'Identité Burkinabe ou d'un passeport, de deux photos d'identité et de frais d'ouverture. Les membres de plein droit, les membres actifs-usager et les membres parrains constituent le capital social de FASOCRED. Tout membre doit être âgé de 18 ans au moins et 71 ans au plus."
+export const members_introduction = "Pour adhérer à FASOCRED, il faut se prémunir de la photocopie d'une Carte Nationale d'Identité Burkinabe ou d'un passeport, de deux photos d'identité et de frais d'ouverture. Les membres de plein droit, les membres actifs-usager et les membres parrains constituent le capital social de FASOCRED. Tout membre doit être âgé de 18 ans au moins et 71 ans au plus."
 
 export const members_section ={
     title: 'Membres',

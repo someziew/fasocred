@@ -8,7 +8,7 @@ export const mission = {
 export const join = {
     title: "Conditions d'Adhésion",
     conditions : [
-        'Une CNIB ou passeport',
+        'Une photocopie de la CNIB ou du passeport',
         "Deux photos d'identité",
         "Frais d'ouverture"
     ]
