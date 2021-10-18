@@ -193,7 +193,7 @@ export const interest_rate = {
 export const well_off_savings = {
     id: 'well_off_savings',
     title: 'L’épargne nantie',
-    detail: 'L’épargne nantie est une condition préalable à l’obtention du crédit. Elle est de 15%. Pour les emprunteurs non-salariés, la constitution d’une épargne nantie sous forme de dépôt avant l’octroi du crédit est obligatoire. Le plan d’épargne obligatoire ou l’épargne nantie doit être gelée dans un compte d’épargne stable et considéré comme une garantie jusqu’à épuisement total du crédit.'
+    detail: 'L’épargne nantie est une condition préalable à l’obtention du crédit. Elle est de 15%. Pour les emprunteurs non-salariés, la constitution d’une épargne nantie sous forme de dépôt avant l’octroi du crédit est obligatoire. Le plan d’épargne obligatoire ou l’épargne nantie doit être gelé(e) dans un compte d’épargne stable et considéré(e) comme une garantie jusqu’à épuisement total du crédit.'
 }
 
 export const guarantees = {
