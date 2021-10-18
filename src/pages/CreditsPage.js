@@ -86,7 +86,7 @@ const CreditsPage = () => {
             }
         </Card>
 
-        <Card title={max_credits_section.title} id={max_credits_section.id}>
+        {/* <Card title={max_credits_section.title} id={max_credits_section.id}>
             <div><p>Le montant maximal de crédit qu’un client peut obtenir auprès de l’agence est fonction de la limite déterminée par l’analyse de la capacité de remboursement de l’emprunteur.</p></div>
             {
                 max_credits_amount_per_categories.map(category => {
@@ -107,7 +107,7 @@ const CreditsPage = () => {
                     )
                 })
             }
-        </Card>
+        </Card> */}
 
         <Card title={interest_rate.title} id={interest_rate.id}>
             <p>{interest_rate.detail}</p>

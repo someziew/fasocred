@@ -12,7 +12,7 @@ export const members_types= [{
                 ]
 },
 {
-    member_name: 'Membres (adhérents) actifs-usager',
+    member_name: 'Membres (adhérents) actif-usagers',
     conditions: ['droits d’adhésion 3000 FCFA.', 'Capital social 2000 FCFA.',
                     'Solde minimum P.PH (Personne physique) 2500 FCFA.', 'Solde minimum P.MR (Personne morale) 10000 FCFA.'
                 ]

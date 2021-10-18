@@ -107,7 +107,7 @@ export const financing_period_per_categories = [{
         duration: '24 mois'
     }]
 }, {
-    category_name: 'COMMERCIAL',
+    category_name: 'COMMERCIALE',
     details: [{
         product_name: 'Crédit d’inventaire',
         duration: '12 mois'
@@ -217,7 +217,7 @@ export const late_fees = {
 export const mutual_credit_fund = {
     id: 'mutual_credit_fund',
     title: 'Fond mutuel de prévoyance crédit',
-    detail: 'Le Fond mutuel de prévoyance crédit (FMPC) vise à éviter que la famille ou les descendants de l’emprunteur paye (nt) le solde du crédit prévu par le tableau d’amortissement au moment du décès. L’adhésion au FMPC est obligatoire pour l’emprunteur qui désire obtenir un crédit, sauf pour l’avance sur salaire. La souscription est de 1 % du montant du crédit consenti pour une durée n’excédant pas 24 mois et de 1,5 % pour les durées supérieures à 24 mois. Ce montant payé en totalité par l’emprunteur au moment du versement du crédit. A l’aide de la déclaration au Fonds mutuel jointe au contrat de crédit, le montant retenu à cette fin versé dans le compte : « Fonds mutuel de prévoyance crédit ». En cas de décès de l’emprunteur, l’institution achemine une demande de remboursement accompagnée du certificat de décès de l’emprunteur au Fond mutuel. Le Fond mutuel rembourse le solde résiduel du prêt prévu par le tableau d’amortissement à la date du décès. En cas de décès de l’emprunteur, le délai de transmission de son dossier au fond mutuel de prévoyance est d’un mois. '
+    detail: 'Le Fond mutuel de prévoyance crédit (FMPC) vise à éviter que la famille ou les descendants de l’emprunteur paye (nt) le solde du crédit prévu par le tableau d’amortissement au moment du décès. L’adhésion au FMPC est obligatoire pour l’emprunteur qui désire obtenir un crédit, sauf pour l’avance sur salaire. La souscription est de 1 % du montant du crédit consenti pour une durée n’excédant pas 24 mois et de 1,5 % pour les durées supérieures à 24 mois. Ce montant payé en totalité par l’emprunteur au moment du versement du crédit. A l’aide de la déclaration au Fond mutuel jointe au contrat de crédit, le montant retenu à cette fin versé dans le compte : « Fond mutuel de prévoyance crédit ». En cas de décès de l’emprunteur, l’institution achemine une demande de remboursement accompagnée du certificat de décès de l’emprunteur au Fond mutuel. Le Fond mutuel rembourse le solde résiduel du prêt prévu par le tableau d’amortissement à la date du décès. En cas de décès de l’emprunteur, le délai de transmission de son dossier au fond mutuel de prévoyance est d’un mois. '
 }
 
 export const synthesis_category_section = {
@@ -231,7 +231,7 @@ export const synthesis_category_consommation = {
             icon: <FaWallet className="synthesis_icon"/>,
             use: 'Avance salaire',
             duration: '1 mois',
-            amount: '25%',
+            // amount: '25%',
             interest_rate: 'néant',
             well_off_savings: '0%',
             management_fees: '5%',
@@ -242,7 +242,7 @@ export const synthesis_category_consommation = {
             icon: <FaMoneyBillWave className="synthesis_icon"/>,
             use: 'Crédit social',
             duration: '12 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '0%',
             management_fees: '2%',
@@ -252,7 +252,7 @@ export const synthesis_category_consommation = {
             icon: <FaCouch className="synthesis_icon"/>,
             use: 'Crédit mobilier',
             duration: '36 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '0%',
             management_fees: '2%',
@@ -262,7 +262,7 @@ export const synthesis_category_consommation = {
             icon: <FaCar className="synthesis_icon"/>,
             use: 'Crédit véhicule',
             duration: '36 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '0%',
             management_fees: '2%',
@@ -272,7 +272,7 @@ export const synthesis_category_consommation = {
             icon: <FaHome className="synthesis_icon"/>,
             use: 'Crédit habitation',
             duration: '60 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '0%',
             management_fees: '2%',
@@ -289,7 +289,7 @@ export const synthesis_category_agriculture = {
             icon: <FaFillDrip className="synthesis_icon"/>,
             use: 'Crédit d’intrants',
             duration: '12  mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '15%',
             management_fees: '2%',
@@ -301,7 +301,7 @@ export const synthesis_category_agriculture = {
             icon:  <FaTractor className="synthesis_icon"/>,
             use: 'Crédit d’équipements',
             duration: '24 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '15%',
             management_fees: '2%',
@@ -313,7 +313,7 @@ export const synthesis_category_agriculture = {
             icon:  <FaClipboardList className="synthesis_icon"/>,
             use: 'Crédit programme',
             duration: '12 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '15%',
             management_fees: '2%',
@@ -331,7 +331,7 @@ export const synthesis_category_sales = {
             icon: <FaBeer className="synthesis_icon"/>,
             use: 'Crédit d’inventaire',
             duration: '12 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '15%',
             management_fees: '2%',
@@ -343,7 +343,7 @@ export const synthesis_category_sales = {
             icon: <FaStore className="synthesis_icon"/>,
             use: 'Préfinancement des marchés',
             duration: '12 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '15%',
             management_fees: '2%',
@@ -355,7 +355,7 @@ export const synthesis_category_sales = {
             icon: <FaTrailer className="synthesis_icon"/>,
             use: 'Crédit d’équipements',
             duration: '12 mois',
-            amount: '5 millions',
+            // amount: '5 millions',
             interest_rate: '10%',
             well_off_savings: '15%',
             management_fees: '2%',
@@ -367,4 +367,4 @@ export const synthesis_category_sales = {
 }
 
 
-export const credit_conclusion = 'Les frais de dossier pour les crédits égalent ou inférieurs à un million de FCFA sont de 2500 FCFA. Pour les crédits supérieurs à un million de FCFA, les frais de dossier s’élèvent à 5.000 FCFA. Les frais de dossier ne sont pas remboursables. NB : FASOCRED octroiera des crédits qu’après 6 mois de fonctionnement. Les 6 premiers mois étant la période de collecte.'
+export const credit_conclusion = 'Les frais de dossier pour les crédits égalent ou inférieurs à un million de FCFA sont de 2500 FCFA. Pour les crédits supérieurs à un million de FCFA, les frais de dossier s’élèvent à 5.000 FCFA. Les frais de dossier ne sont pas remboursables.'

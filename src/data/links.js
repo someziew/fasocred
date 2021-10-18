@@ -5,6 +5,31 @@ import {credits_admision_conditions_section, credits_categories_section, financi
   interest_rate, well_off_savings, guarantees, document_fees, late_fees, mutual_credit_fund, synthesis_category_section
 } from './credits'
 import {savings_importance_section, savings_types_section, dat_rates_section, tontines_accounts_section} from './savings'
+
+export const footerLinks = [
+  {
+    label: 'Accueil',
+    url: '/'
+  },
+  {
+    label: 'Membres',
+    url: '/membres'
+  },
+  {
+    label: 'Crédits',
+    url: '/credits'
+  },
+  {
+    label: 'Epargnes',
+    url: '/epargnes'
+  },
+  {
+    label: 'Contacts',
+    url: '/contacts'
+  }
+]
+
+
 const sublinks = [
   {
     page: 'accueil',

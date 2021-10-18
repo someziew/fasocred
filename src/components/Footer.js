@@ -1,12 +1,26 @@
 import React from 'react'
-import links  from '../data/links';
+import links, {footerLinks}  from '../data/links';
 const Footer = () => {
     var [accueil, membres, credits, epargnes, contacts] = links;
 
     return (
         <footer className="footer">
             <div className="footer_menu">
-                {
+                <ul className="footer_links">
+                    {
+                        footerLinks.map((link, index) => {
+                            const {label, url} = link;
+                            return (
+                                <a key={index} href={url} className="footer_item">
+                                    {label}
+                                </a>
+                            )
+                        })
+                    }
+                </ul>
+
+                {/* {
+                    
                     links.map((item, index) => {
                         const {links,page} = item
                         return (
@@ -21,12 +35,11 @@ const Footer = () => {
                                     </a>
                                     )
                                 })}
-                                    
                                 </ul>
                             </article>
                         )
                     })
-                }
+                } */}
 
             </div>
         </footer>

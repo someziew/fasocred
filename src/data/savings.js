@@ -44,7 +44,7 @@ export const savings_types = [{
 },{
     title: "Epargne solidaire",
     details: [
-        "Montant fixe pour une durée et un taux d’intérêt déterminés d’avance.",
+        "Montant fixe",
         "Epargne préalable pour être membre de plein droit"
     ]
 },{

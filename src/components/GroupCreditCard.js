@@ -24,10 +24,10 @@ const GroupCreditCard = ({title, examples}) => {
                                         <span>Durée: </span> {duration}
                                     </div>
                                     <span className="synthesis_delimiter"></span>
-                                    <div className="synthesis_detail">
+                                    {/* <div className="synthesis_detail">
                                         <span>Montant maximal jusqu’à: </span> {amount}
                                     </div>
-                                    <span className="synthesis_delimiter"></span>
+                                    <span className="synthesis_delimiter"></span> */}
                                     <div className="synthesis_detail">
                                         <span>Taux d’intérêt: </span> {interest_rate}
                                     </div>

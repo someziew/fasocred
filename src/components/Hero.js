@@ -14,7 +14,7 @@ const Hero = () => {
           <h3>Le choix du progrès</h3>
           <h3>EFFICACITE - TRANSPARENCE - RESPECT</h3>
           <p>
-          La coopérative d’épargne et de crédit de nouvelle génération crée pour contribuer à faciliter l’accès aux micro-crédits dans tout le Burkina Faso. 
+          La coopérative d’épargne et de crédit de nouvelle génération créee pour contribuer à faciliter l’accès aux micro-crédits dans tout le Burkina Faso. 
           </p>
           <a className='btn' href="/membres">Comment adherer</a>
         </article>
