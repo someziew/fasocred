@@ -934,23 +934,19 @@ Stripe Styles
   grid-template-columns: 1fr;
 }
 
-/* .footer_links_group {
+.footer_links_group {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-} */
+}
 
 .footer_links {
   display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .footer_item {
-  display: inline-block;
   color: var(--color-secondary);
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 0.2rem;
 }
 
 .footer_item:hover {
@@ -958,7 +954,7 @@ Stripe Styles
   color: var(--clr-grey-7);
 }
 
-/* @media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .footer_menu {
     grid-template-columns: 1fr 1fr;
   }
@@ -968,4 +964,4 @@ Stripe Styles
   .footer_menu {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-} */
+}

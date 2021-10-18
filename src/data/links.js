@@ -52,7 +52,7 @@ const sublinks = [
       { label: 'Admissibilité Aux Crédits', icon: <FaBriefcase />, url: `/credits#${credits_admision_conditions_section.id}` },
       { label: 'Catégories De Crédit', icon: <FaBriefcase />, url: `/credits#${credits_categories_section.id}` },
       { label: 'Durée De Financement', icon: <FaBriefcase />, url: `/credits#${financing_period_section.id}` },
-      { label: 'Montant Maximal De Crédit', icon: <FaBriefcase />, url: `/credits#${max_credits_section.id}` },
+      // { label: 'Montant Maximal De Crédit', icon: <FaBriefcase />, url: `/credits#${max_credits_section.id}` },
       { label: 'Taux D’intérêt', icon: <FaBriefcase />, url: `/credits#${interest_rate.id}` },
       { label: 'L’épargne Nantie', icon: <FaBriefcase />, url: `/credits#${well_off_savings.id}` },
       { label: 'Garanties', icon: <FaBriefcase />, url: `/credits#${guarantees.id}` },
