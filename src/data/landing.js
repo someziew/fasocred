@@ -20,7 +20,7 @@ export const services_introduction = 'Services'
 
 export const services = [
     "Ouverture de compte courant et à terme avec les meilleurs taux d'intérêt",
-    "Compte courant, Epargne solidaiore",
+    "Compte courant, Epargne solidaire",
     "Epargne à terme, Epargne à vue, Epargne parrainage"
 ]
 

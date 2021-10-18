@@ -3,7 +3,7 @@ export const savings_importance_section ={
     id: 'savings_importance'
 }
 
-export const savings_introduction = "Conformément à la loi et ses textes internes, FASOCRED est une Coopérative d’épargne et de crédit. Ces deux principales activités sont encadrées par des politiques. L'épargne est la partie du revenu (sous forme liquide) des sociétaires, qui - pendant une période donnée - n'est pas dépensée. De façon générale, FASOCRED fonctionne sur la base d'intermédiation. L'épargne collectée étant redistribuée sous forme de crédit, la politique de crédit est élaborée sur la base d'une épargne collectée au préalable. "
+export const savings_introduction = "Conformément à la loi et ses textes internes, FASOCRED est une Coopérative d’épargne et de crédit. Ces deux principales activités sont encadrées par des politiques. L'épargne est la partie du revenu (sous forme liquide) des sociétaires, qui, pendant une période donnée, n'est pas dépensée. De façon générale, FASOCRED fonctionne sur la base d'intermédiation. L'épargne collectée étant redistribuée sous forme de crédit, la politique de crédit est élaborée sur la base d'une épargne collectée au préalable. "
 
 export const savings_importance = [
     "Financement et durabilité : la collecte de l'épargne permet de tendre vers l'indépendance financière de l'institution d'épargne-crédit",
