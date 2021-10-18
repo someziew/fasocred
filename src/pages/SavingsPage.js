@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaArrowsAlt, FaCircle} from 'react-icons/fa'
-import {Card, SmallCard} from '../components';
+import {Card, SmallCard, ButtonScrollToTop} from '../components';
 import {
     savings_introduction,
     savings_importance,
@@ -118,7 +118,7 @@ const SavingsPage = () => {
                 </table>
             </SmallCard>
         </Card>
-
+        <ButtonScrollToTop />
         </>
     )
 }

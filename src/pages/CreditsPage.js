@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaCheck, FaArrowsAlt, FaCircle, FaSquare } from 'react-icons/fa'
-import {Card, SmallCard, GroupCreditCard } from '../components'
+import {Card, SmallCard, GroupCreditCard, ButtonScrollToTop } from '../components'
 import {
     credits_admision_conditions,
     credits_exclusion_conditions,
@@ -155,6 +155,7 @@ const CreditsPage = () => {
                 </p>
             </div>
         </Card>
+        <ButtonScrollToTop />
         </>
     )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import { FaRegClock, FaMapMarkerAlt, FaPhoneAlt, FaMailBulk, FaGlobe, FaAlignRight } from 'react-icons/fa';
 import {contacts} from '../data/contacts'
 import background from '../assets/contact_img.jpg';
+import {ButtonScrollToTop} from '../components'
 
 const ContactsPage = () => {
     const style = {
@@ -18,6 +19,7 @@ const ContactsPage = () => {
         backgroundPosition: 'right'
     }
     return (
+        <>
         <section className="contacts_wrapper">
             <section style={style} >
                 <div className="contacts_info">
@@ -53,6 +55,8 @@ const ContactsPage = () => {
                 </div>
             </section>
         </section>
+        <ButtonScrollToTop />
+        </>
     )
 }
 

@@ -965,3 +965,33 @@ Stripe Styles
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
+
+/* Button Scroll to top */
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--color-secondary);
+  box-shadow: var(--dark-shadow);
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.scrollToTopBtn:hover {
+}
+
+@media screen and (min-width: 1200px) {
+  .scrollToTopBtn {
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .scrollToTopBtn {
+    right: 150px;
+  }
+}

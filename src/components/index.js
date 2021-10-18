@@ -9,6 +9,8 @@ import CreditCard from './CreditCard';
 import GroupCreditCard from './GroupCreditCard';
 import Mission from './Mission'
 import Services from './Services'
+import ButtonScrollToTop from './ButtonScrollToTop'
+
 export {
     Navbar,
     Sidebar,
@@ -20,5 +22,6 @@ export {
     CreditCard,
     GroupCreditCard,
     Mission,
-    Services
+    Services,
+    ButtonScrollToTop
 }

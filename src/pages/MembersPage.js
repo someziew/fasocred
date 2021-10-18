@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaCheck, FaArrowsAlt, FaCircle, FaSquare } from 'react-icons/fa'
-import {Card, SmallCard } from '../components'
+import {Card, SmallCard, ButtonScrollToTop } from '../components'
 import {
     members_introduction,
     members_types,
@@ -89,6 +89,7 @@ const MembersPage = () => {
                 </SmallCard>
            <div><p>{members_suspensions_conclusion}</p></div>
         </Card>
+        <ButtonScrollToTop />
         </>
     )
 }
