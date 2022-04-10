@@ -66,7 +66,7 @@ const sublinks = [
     page: 'epargnes',
     links: [
       { label: 'Epargnes Et Importance', icon: <FaBriefcase />, url: `/epargnes#${savings_importance_section.id}` },
-      { label: 'Types De Produit D’épargne', icon: <FaBriefcase />, url: `/epargnes#${savings_types_section.id}` },
+      { label: 'Type De Produit D’épargne', icon: <FaBriefcase />, url: `/epargnes#${savings_types_section.id}` },
       { label: 'Grille De Taux Des DAT FASOCRED', icon: <FaBriefcase />, url: `/epargnes#${dat_rates_section.id}` },
       { label: 'Les Comptes Tontines', icon: <FaBriefcase />, url: `/epargnes#${tontines_accounts_section.id}` },
     ],
